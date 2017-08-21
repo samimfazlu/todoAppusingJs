@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Todo Application using Pure Javascript</title>
+</head>
+<body>
+	<div>
+		<button onclick="handlers.toggleAll()">Toggle All</button>
+	</div>
+	<br>
+	<div>
+		<div>
+			<button onclick="handlers.addTodo()">Add todo</button>
+			<input type="text" id="addTodoTextInput">
+		</div>
+		<br>
+		<div>
+			<button onclick="handlers.changeTodo()">change todo</button>
+			 <input id="changeTodoPositionInput" type="number">
+			 <input id="changeTodoTextInput" type="text">
+		</div>
+		<br>
+		<div>
+			<button onclick="handlers.toggleTodo()">Toggole todo</button>
+			<input type="number" id="toggleTodoPositionInput">
+		</div>
+		<br>
+		<!-- <div>
+			<button onclick="handlers.deleteTodo()">delete Todo</button>
+			<input type="number" id="deleteTodoPositionInput">
+		
+		</div> -->
+		<ul>
+			
+		</ul><!-- todos list-->  
+		
+	</div>
+	<script src="main.js"></script>
+	<script>
+		/*//selection
+		//Maniupulation
+		var todosUl = document.createElement("ul");
+		//todosUl.classList.add("class") 
+		todosUl.className = "blahh"; 
+		todosUl.id = "id"; 
+		var todoLi1 = document.createElement("li");
+		var todoLi2 = document.createElement("li");
+		todoLi1.textContent = "<h1>item 1</h1>";
+		todoLi2.textContent = "item 2";
+		todosUl.appendChild(todoLi2);
+		todosUl.appendChild(todoLi1);
+		//insertAfter(H/w)
+		//innerHTML vs TextContent
+		//insertBefore(H/w)
+		//document.body.appendChild(todosUl);
+		console.log(todosUl);*/
+		//console.dir(document);
+		//document.title = "Hello title";
+	</script>
+</body>
+</html>
